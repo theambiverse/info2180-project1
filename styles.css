@@ -35,15 +35,15 @@ header > .container{
 
 
 header h1{
-    flex: 50%;
+    flex: 40%;
     font-size: 18px;
-    
+    padding-left: 5%;
     
 }
 
 nav{
-    flex: 50%;
- 
+    flex: 60%;
+    padding-right: 10%;
     
       
 }
