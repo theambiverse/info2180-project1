@@ -72,36 +72,37 @@ nav a{
 .overview-hero .container{
     grid-row: 1;
     background-color:#E2E8F0;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
     justify-items: center;
     align-items: center;
-    padding: 4%;
+    padding: 2%;
     
 }
 
 .overview-hero-image{
-    grid-column: 1;
+    flex: 40%;
+    padding-right: 5%;
     
     
     
 }
 .overview-hero-image >img{
-    width: 150px;
-    height: 170px;
+    width: 210px;
+    height: 230px;
+    float: right;
     
     
 }
 
 .overview-hero-text {
-    grid-column: 2;
-    
+    flex: 60%;
+    padding-right: 4%;
     
     
 }
 
 .overview-hero-text h2, p{
-    font-size: 18px;
+    /*font-size: 18px;*/
     text-align: left;
     
 }
