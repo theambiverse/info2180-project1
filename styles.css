@@ -8,9 +8,7 @@ body {
 
 main{
     display: grid;
-    
     grid-template-rows:5 ;
-    grid-gap:5%;
     width: 100%;
 }
 
@@ -111,6 +109,7 @@ nav a{
 .learn-about .container{
     grid-row: 2;
     background-color: brown;
+    
 }
 
 .learn-about h3{
@@ -121,7 +120,15 @@ nav a{
     font-size: 24px;
     color: #48BB78;
 }
-.learn-about >.card{
+
+.learn-about .cards{
+    display: flex;
+    flex: 30%;
+    justify-content: space-between;
+    
+}
+.learn-about .card{
+    align-items: center;
     border-color: #E2E8F0;
     border-radius: 5px;
     box-shadow: #4A5568;
@@ -132,17 +139,36 @@ nav a{
     grid-row: 3;
     background-color: #4A5568;
     color: white;
-
+    display: flex;
 }
 
+.testing .testing-desiption{
+    flex: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.testing-desiption h2,p{
+    
+}
 .testing .cta{
+    flex: 40%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cta a{
     background-color: #48BB78;
     border-radius: 5px;
+    color: white;
 }
+
 
 .stories .container{
     grid-row: 4;
-    background-color: yellow;
+    margin-left: 20%; 
+    margin-right: 10%;
 }
 
 .stories h2, a{
@@ -154,6 +180,16 @@ nav a{
 
 .stories img{
     border-radius: 50%;
+    width: 210px;
+    height: 230px;
+    float: left;
+    padding-right: 3%;
+    padding-left: 2%;
+    
+}
+
+.stories article{
+    padding-bottom: 8%;
 }
 
 
