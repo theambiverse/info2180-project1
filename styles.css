@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, "Noto Sans", sans-serif ;
     
 }
@@ -16,7 +16,7 @@ main{
     margin: 0 auto;
     max-width: 960px;
     width: 100%;   
-   /* border-style:double; */
+    /*border-style:double; */
     padding-left: 15%; 
     padding-right: 15%;
 }
@@ -77,7 +77,7 @@ nav a{
     display: flex;
     justify-items: center;
     align-items: center;
-    /*padding: 2%;*/
+    
     
 }
 
@@ -104,7 +104,6 @@ nav a{
 }
 
 .overview-hero-text h2, p{
-    /*font-size: 18px;*/
     text-align: left;
     
 }
@@ -112,9 +111,7 @@ nav a{
 
 .learn-about .container{
     grid-row: 2;
-    /*background-color: brown;*/
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-bottom: 2%;
     
 }
 
@@ -127,17 +124,31 @@ nav a{
     color: #48BB78;
 }
 
-.learn-about .cards{
-    display: flex;
-    flex: 30%;
-    justify-content: space-between;
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:3%;
     
 }
-.learn-about .card{
+
+.card{
+    justify-content: center;
     align-items: center;
+
     border-color: #E2E8F0;
+    border-style: solid;
     border-radius: 5px;
     box-shadow: #4A5568;
+}
+
+.card-body{
+    padding:2%;
+}
+
+.card img{
+    width: span;
+    height: 210px;
 }
 
 
@@ -146,21 +157,23 @@ nav a{
     background-color: #4A5568;
     color: white;
     display: flex;
-}
-
-.testing .testing-desiption{
-    flex: 60%;
     align-items: center;
     justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
 }
 
-.testing-desiption h2,p{
+.testing-desiption{
+    flex: 50%;
+    word-wrap: break-word;
+    padding: 4%;
     
 }
-.testing .cta{
-    flex: 40%;
-    align-items: center;
-    justify-content: center;
+
+.cta{
+    flex: 50%;
+    padding: 4%;
     
 }
 
@@ -168,13 +181,18 @@ nav a{
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 8%;
+    padding-left: 8%;
+    
 }
 
 
 .stories .container{
     grid-row: 4;
-    /*padding-left: 15%; 
-    padding-right: 15%;*/
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .stories h2, a{
@@ -203,28 +221,38 @@ nav a{
     grid-row: 5;
     background-color: #48BB78;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*padding: 4%;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
 }
 
 .newsletter h3{
-    
-    flex: 100%;
+    text-align: center;
 }
-
 .newsletter  p{
-    
+    text-align: unset;
     word-wrap: break-word;
 }
 
-.newsletter form{
+
+form{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    grid-gap:3px;
+}
+
+#email{
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .newsletter .btn{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
     background-color: #5A67D8 ;
 }
 
