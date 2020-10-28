@@ -15,7 +15,10 @@ main{
 .container {
     margin: 0 auto;
     max-width: 960px;
-    width: 100%;    
+    width: 100%;   
+   /* border-style:double; */
+    padding-left: 15%; 
+    padding-right: 15%;
 }
 
 a{
@@ -27,8 +30,9 @@ header > .container{
     background-color: white;
     font-size: 18px;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    
 }
 
 
@@ -73,7 +77,7 @@ nav a{
     display: flex;
     justify-items: center;
     align-items: center;
-    padding: 2%;
+    /*padding: 2%;*/
     
 }
 
@@ -108,7 +112,9 @@ nav a{
 
 .learn-about .container{
     grid-row: 2;
-    background-color: brown;
+    /*background-color: brown;*/
+    padding-left: 4%;
+    padding-right: 4%;
     
 }
 
@@ -167,8 +173,8 @@ nav a{
 
 .stories .container{
     grid-row: 4;
-    margin-left: 20%; 
-    margin-right: 10%;
+    /*padding-left: 15%; 
+    padding-right: 15%;*/
 }
 
 .stories h2, a{
@@ -197,7 +203,25 @@ nav a{
     grid-row: 5;
     background-color: #48BB78;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding: 4%;*/
+}
+
+.newsletter h3{
     
+    flex: 100%;
+}
+
+.newsletter  p{
+    
+    word-wrap: break-word;
+}
+
+.newsletter form{
+    display: flex;
+    justify-content: space-between;
 }
 
 .newsletter .btn{
@@ -205,8 +229,11 @@ nav a{
 }
 
 
+
 footer .container{
   
     background-color: #4A5568;
     color: white;
+    display: flex;
+    align-items: center;
 }
