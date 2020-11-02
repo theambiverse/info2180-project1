@@ -128,7 +128,7 @@ nav a{
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:3%;
+    grid-gap:1%;
     
 }
 
@@ -181,10 +181,10 @@ nav a{
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-right: 8%;
-    padding-left: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 15%;
+    padding-left: 15%;
     
 }
 
@@ -229,6 +229,7 @@ nav a{
 .newsletter h3{
     text-align: center;
 }
+
 .newsletter  p{
     text-align: unset;
     word-wrap: break-word;
@@ -243,15 +244,15 @@ form{
 }
 
 #email{
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .newsletter .btn{
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 
     background-color: #5A67D8 ;
 }
