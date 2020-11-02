@@ -16,7 +16,6 @@ main{
     margin: 0 auto;
     max-width: 960px;
     width: 100%;   
-    /*border-style:double; */
     padding-left: 15%; 
     padding-right: 15%;
 }
@@ -128,7 +127,7 @@ nav a{
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:1%;
+    grid-gap:2%;
     
 }
 
@@ -159,15 +158,15 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 }
 
 .testing-desiption{
     flex: 50%;
     word-wrap: break-word;
-    padding: 4%;
+    padding:4%
     
 }
 
@@ -178,6 +177,7 @@ nav a{
 }
 
 .cta a{
+    text-transform: uppercase;
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
@@ -195,11 +195,21 @@ nav a{
     padding-bottom: 4%;
 }
 
+.stories h2{
+    padding-left: 5%;
+    padding-bottom: 4%;
+}
+
 .stories h2, a{
     color: #5A67D8;
+    
 }
 .stories h3{
     font-size: 18px;
+    word-wrap: break-word;
+    padding-right: 170px;
+   
+
 }
 
 .stories img{
@@ -223,17 +233,16 @@ nav a{
     color: white;
     padding-top: 2%;
     padding-bottom: 2%;
+    text-align: center;
     
 }
 
-.newsletter h3{
-    text-align: center;
-}
 
 .newsletter  p{
-    text-align: unset;
-    word-wrap: break-word;
+    padding-right: 230px;
+    padding-left: 230px;
 }
+
 
 
 form{
@@ -241,19 +250,28 @@ form{
     justify-content: center;
     align-items: center;
     grid-gap:3px;
+    padding-right: 230px;
+    padding-left: 230px;
 }
 
+input{
+    width: 330px;
+}
 #email{
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  border-style: none;
+  border-radius: 5px;
 }
 
 .newsletter .btn{
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
     background-color: #5A67D8 ;
 }
 

@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
         var exp=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
         if (exp.test(val)){
             var mes =document.querySelector(".message");
-            mes.innerHTML="Thank you! Your email address "+val+ " has been added to our mailing list!";
-            document.querySelector(".message").style.textAlign="center";
+            mes.innerHTML="Thank you! Your email address "+val+ " has been added to our mailing list!";           
             // forms.submit();
 
         }
@@ -20,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(){
          document.getElementsByTagName('input')[0].focus();
           var mes =document.querySelector(".message");
             mes.innerHTML="Please enter a valid email address.";
-            document.querySelector(".message").style.textAlign="center";
+           
          }
           
       })
